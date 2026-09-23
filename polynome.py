@@ -35,4 +35,4 @@ class polynome:
         return polynome(s*self.__a, s*self.__b, s*self.__c)
     
     def show(self):
-        return f"{self.__a}x^2+{self.__a*self.__b}x+{self.__c}"
+        return f"{self.__a}x^2+{self.__b}x+{self.__c}"
